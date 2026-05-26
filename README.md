@@ -11,7 +11,7 @@ A tool that automatically calculates the number of shares to buy per stock, incl
 - 순자산 기준 **2배 레버리지** 자동 계산 / Auto 2x leverage calculation based on net assets
 - **신용매수 → 현금매수** 순서 안내 / Buy order guidance: margin first, then cash
 - 종목별 증거금률(30% / 40%) 반영 / Per-stock margin rate support (30% / 40%)
-- **신용불가 종목** 자동 감지 및 현금매수 전환 / Auto-detection of credit-unavailable stocks
+- **신용불가 종목** 수동 지정 및 현금매수 전환 / self-detection of credit-unavailable stocks
 - 2배 달성 불가 시 최대 가능 레버리지로 자동 조정 및 경고 / Auto-adjusts to max achievable leverage with warning
 - Yahoo Finance를 통한 **실시간 주가 자동 조회** (실패 시 수동 입력) / Real-time price fetch via Yahoo Finance (falls back to manual input)
 - 주수 반올림 시 목표금액에 더 가까운 쪽 자동 선택 / Smart share rounding to closest target amount
